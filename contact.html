@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="css/all.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+        
+        
+    </section>   
+
+    <!-- -----------Contact Us------------ -->
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120492.95454520968!2d84.73821649662648!3d19.308231791042473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3d500ef1cb60ad%3A0x5b75778874294ff!2sBrahmapur%2C%20Odisha!5e0!3m2!1sen!2sin!4v1639793024105!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    </section>
+    
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>XYZ Road, ABC Building</h5>
+                        <p>BERHAMPUR, ODISHA, IN</p>
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+91 9876543210</h5>
+                        <p>Monday to saturday, 10AM to 8PM</p>
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>info@webdevloperDJ.com</h5>
+                        <p>Email us your Query</p>
+                    </span>
+                </div>
+
+            </div>
+            <div class="contact-col">
+
+                <form action="">
+
+                    <input type="text" placeholder="Enter Your Name" required>
+                    <input type="email" placeholder="Enter Email Address" required>
+                    <input type="text" placeholder="Enter Your Subject" required>
+
+                    <textarea  rows="8" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn"> Send Message</button>
+                </form>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+<!-- ---------------------------Footer-------------------------------- -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem exercitationem unde nisi in laudantium corporis numquam <br> nostrum atque sint, asperiores error nam harum soluta, temporibus nihil cum? Doloribus, placeat aliquid?</p>
+    </section>
+
+    <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-Instagram"></i>
+        <i class="fab fa-Linkdin"></i>
+    </div>
+
+    <!-- --------------------------Javascript For Toggle Menu----------------------- -->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu() {
+            navLinks.style.right = "0";
+        }
+        function showmenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
